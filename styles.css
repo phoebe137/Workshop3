@@ -2,12 +2,12 @@ body {
 background-color: #441E13;
 color: white;
 }
+
 /*
 div {
 outline: 1px solid yellow;
 }
 */
-
 
 
 .logo {
@@ -50,9 +50,101 @@ display: block;
 float: left;
 font-family: sans-serif;
 padding: 6px 20px;
-
 }
 
 .nav li:last-child {
   border-right: none;
+}
+
+.aboutcontainer {
+  max-width: 920px;
+  height: 212px;
+  background-color: rgb(135, 169, 132);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 18px;
+  overflow: hidden;
+}
+
+.plane {
+  margin-top: -130px;
+}
+
+.words { margin-top: 30px;
+
+
+}
+.About {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 300px;
+  margin-right: 270px;
+}
+
+.paragraph {
+  font-size: 1rem;
+  color: white;
+  margin-left: 300px;
+  margin-right: 270px;
+  margin-top: 15px;
+  color: rgba(300, 300, 300, 0.5);
+}
+
+
+.box {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 925px;
+  height: 620px;
+  margin-top: 18px;
+  overflow: hidden;
+}
+
+
+.blue {
+  max-width: 197px;
+  height: 620px;
+  background-color: rgb(150, 175, 172);
+  font-size: 1rem;
+
+}
+ .blue li {
+border-bottom: 1px solid rgb(213,224,226);
+   display: block;
+   padding: 6px 20px;
+
+ }
+
+ .blue ol {
+ padding: 18px 10px
+}
+
+
+.sand {
+  max-width: 727px;
+  height: 620px;
+  background-color: rgb(219, 216, 197);
+  margin-left: 198px;
+margin-top: -663px;
+
+}
+
+.howwework {
+  color: rgb(89,111,122);
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: sans-serif;
+  margin-top: 43px;
+margin-left: 30px;
+ padding: 15px 0px;
+
+}
+
+
+.para {
+  font-size: 1rem;
+  color: black;
+
+  margin-left: 30px;
+  margin-right: 70px;
 }
